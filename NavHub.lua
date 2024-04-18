@@ -91,7 +91,7 @@ local function CreateGUI()
     -- Event handler for the Check Key button
     local function CheckKey()
         local enteredKey = TextBox.Text
-        if enteredKey == "dog" then
+        if enteredKey == "cat" then
             Frame:Destroy()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NavilanSanthanakrishnan/dahood/main/NavAutoFarm.lua"))()
         else
